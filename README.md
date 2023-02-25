@@ -2,7 +2,8 @@
 ## Performing data modeling, data engineering, and data analysis on this company's employment history from the 1980's and 1990's. All of the data is held in six CSV files.
 ## Data Modeling
 Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables.
-![Screenshot 2023-02-20 at 2 45 21 PM](https://user-images.githubusercontent.com/112666732/220208926-8b68f2cf-5312-4e0c-be6c-7d222bd711c9.png)
+<img width="899" alt="Screenshot 2023-02-24 at 7 45 37 PM" src="https://user-images.githubusercontent.com/112666732/221334469-9d5b45c9-a54d-4114-ae61-8d82dc2f17c6.png">
+
 ## Data Engineering
 Create a table schema for each of the six CSV files.
 
