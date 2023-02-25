@@ -11,21 +11,15 @@ CREATE TABLE departments (
 	CONSTRAINT pk_departments PRIMARY KEY (dept_no)
 );
 
-SELECT * FROM departments;
-
 CREATE TABLE dept_emp (
 	emp_no INT NOT NULL,
 	dept_no VARCHAR NOT NULL
 );
 
-SELECT * FROM dept_emp;
-
 CREATE TABLE dept_manager (
 	dept_no VARCHAR NOT NULL,
 	emp_no INT NOT NULL
 );
-
-SELECT * FROM dept_manager;
 
 CREATE TABLE employees (
 	emp_no INT NOT NULL,
@@ -38,20 +32,22 @@ CREATE TABLE employees (
 	CONSTRAINT pk_employees PRIMARY KEY (emp_no)
 );
 
-SELECT * FROM employees;
-
 CREATE TABLE salaries (
 	emp_no INT NOT NULL,
 	salary INT NOT NULL
 );
-
-SELECT * FROM salaries;
 
 CREATE TABLE titles (
 	title_id VARCHAR NOT NULL,
 	title VARCHAR NOT NULL
 );
 
+-- Display tables
+SELECT * FROM departments;
+SELECT * FROM dept_emp;
+SELECT * FROM dept_manager;
+SELECT * FROM employees;
+SELECT * FROM salaries;
 SELECT * FROM titles;
 
 -- Data Analysis
